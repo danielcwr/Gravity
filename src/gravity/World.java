@@ -46,7 +46,7 @@ public class World
         //mouseManager = new MouseManager();
         
         //USER DEFINED ASTEROIDFIELDS
-        entityManager.addEntity(new AsteroidField(handler, 0*MAPSCALE, 0*MAPSCALE, 4000, 4000));
+        //TODO: entityManager.addEntity(new AsteroidField(handler, 0*MAPSCALE, 0*MAPSCALE, 4000, 4000));
         
         //USER DEFINED NEBULAS
         entityManager.addEntity(new Nebula(handler, Assets.nebula3, 12000*MAPSCALE, 28000*MAPSCALE, (int) (400*PLANETSCALE*2)));

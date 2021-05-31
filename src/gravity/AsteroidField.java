@@ -55,7 +55,7 @@ public class AsteroidField extends StaticEntity
                 g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, opac));
         }
         
-        for (int c = 0; c < (int)(asteroids.size() * opac); c++)**make asteroids a) darker, b)max opacity of .1. Also: make for loop have new asteroids fade in.
+        for (int c = 0; c < (int)(asteroids.size() * opac); c++)//TODO: make asteroids a) darker, b)max opacity of .1. Also: make for loop have new asteroids fade in.
         {
             System.out.println(opac);
             asteroid = asteroids.get(c);
